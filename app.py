@@ -1,4 +1,6 @@
 from garazas import Garazas
+import numpy
+import django
 
 garazas = Garazas()
 
