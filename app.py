@@ -6,6 +6,7 @@ garazas = Garazas()
 
 if __name__ == "__main__":
     while True:
+        print("Pasirinkite veiksmą:")
         veiksmas = int(input("1 - įvesti automobilį, 2 - įvesti elektromobilį, 3 - peržiūrėti, 4 - išeiti: "))
         match veiksmas:
             case 1:
